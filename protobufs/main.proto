@@ -1,8 +1,10 @@
 syntax = "proto3";
 
+package mugdha.messages.sample;
+
 option go_package = "github.com/mugdha-adhav/go-proto/cmd";
 
-message SearchRequest {
+message myMessage {
   string name = 1;
   int32 uuid = 2;
   string description = 3;
