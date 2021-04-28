@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "github.com/mugdha-adhav/go-proto/cmd";
+
+message SearchRequest {
+  string name = 1;
+  int32 uuid = 2;
+  string description = 3;
+}
